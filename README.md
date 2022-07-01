@@ -2,7 +2,7 @@
 Spaces Sync v1.6
 
 Syncs a local folder with a DigitalOcean online Spaces repository.
-NOTE: most recently modified file in the local folder will not be uplaoded. if UploadSkipLast is flagged
+NOTE: most recently modified file in the local folder will not be uplaoded if UploadSkipLast is flagged
 
 An executable of this program is available at www.ivw.cee.vt.edu
 
@@ -30,7 +30,7 @@ Each line must end in a semi-colon. Comments can be made after the semi-colon.
 
 Known bugs/quirks as of v 1.6:
 
--fails if there are no files in the droplet.
--binary flag to skip the last file in case it is still being written is flipped, set to 0 if you want to skip the last file
--requires the config file is named DO_config.cfg and is located in C:\DOSync\
--sometimes seems to lose connection or access and must be closed and restarted. Not sure why this is or how to fix.
+-Fails if there are no files in the droplet.
+-Binary flag to skip the last file in case it is still being written is flipped, set to 0 if you want to skip the last file.
+-Requires the config file is named DO_config.cfg and is located in C:\DOSync\.
+-Sometimes seems to lose connection or access and must be closed and restarted. Not sure why this is or how to fix.
