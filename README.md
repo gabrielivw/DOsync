@@ -1,5 +1,6 @@
 # DOsync
 Spaces Sync v1.6
+DOI: 10.5281/zenodo.6803071
 
 Syncs a local folder with a DigitalOcean online Spaces repository.
 NOTE: most recently modified file in the local folder will not be uplaoded if UploadSkipLast is flagged
