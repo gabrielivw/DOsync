@@ -1,0 +1,18 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: DOSync
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - given-names: Gabriel
+    family-names: Isaacman-VanWertz
+    email: ivw@vt.edu
+    affiliation: Virginia Tech
+    orcid: 'https://orcid.org/0000-0002-3717-4798'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.6803070
+    description: Latest version of DO Sync
+repository: 'https://github.com/gabrielivw/DOsync'
